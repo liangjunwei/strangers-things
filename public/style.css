@@ -1,0 +1,125 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    height: 100vh;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(198, 253, 89);
+}
+
+#header h1 {
+    font-family: 'Macondo', cursive;
+    font-size: 50px;
+}
+
+#nav-bar {
+    display: flex;
+}
+
+#nav-bar a {
+    font-family: 'Koulen', cursive;
+    font-size: 30px;
+}
+
+#nav-bar a:hover {
+    background-color: rgb(161, 210, 64);
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+.post {
+    border: 1px solid black;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#single-post {
+    border: 1px solid black;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80%;
+}
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#signup-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80%;
+}
+
+#signup-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#edit-form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+#message-form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#add-post-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80%;
+}
+
+#post-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.my-post {
+    border: 1px solid black;
+    margin: 5px;
+}
+
+#footer {
+    font-family: 'Macondo', cursive;
+    font-size: 25px;
+    text-align: center;
+    background-color: rgb(198, 253, 89);
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+}
